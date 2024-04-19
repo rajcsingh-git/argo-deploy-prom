@@ -43,6 +43,8 @@ spec:
   #project: cpa-infra
   source:
     path: base
+    plugin:
+      name: kustomize-build-with-helm
     repoURL: https://github.com/rajcsingh-git/kube-prom.git
     targetRevision: main
   syncPolicy:
